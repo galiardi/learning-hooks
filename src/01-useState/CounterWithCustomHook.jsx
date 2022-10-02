@@ -22,6 +22,7 @@ const CounterWithCustomHook = () => {
         -
       </button>
       <button onClick={logEvent}>log event</button>
+      <button className="btn btn-primary"></button>
     </>
   );
 };
