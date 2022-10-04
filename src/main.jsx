@@ -7,11 +7,12 @@ import ReactDOM from "react-dom/client";
 // import HooksApp from "./HooksApp";
 // import { MultipleCustomHooks } from "./03-examples/MultipleCustomHooks";
 // import { FocusScreen } from "./04-useRef/FocusScreen";
-import { Layout } from "./05-useLayoutEffect/Layout";
+// import { Layout } from "./05-useLayoutEffect/Layout";
 import "./index.css";
+import { Memorize } from "./memo/Memorize";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   //<React.StrictMode>
-  <Layout />
+  <Memorize />
   //</React.StrictMode>
 );
